@@ -22,12 +22,11 @@ class Header extends Component {
 
           <Menu.Item
             as={ Link }
-            name='todos'
-            to='todos'
-            active={activeItem === 'todos'}
-            onClick={this.handleItemClick}
-          >
-            Todos
+            name='processList'
+            to='processList'
+            active={activeItem === 'processList'}
+            onClick={this.handleItemClick}>
+            Lister der Prozesse
           </Menu.Item>
 
           <Menu.Item
