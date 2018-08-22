@@ -1,5 +1,5 @@
 import React from 'react';
-import { loadProcessDefinitions  } from '../api'
+import { loadProcessDefinitions  } from '../actions'
 
 
 
