@@ -14,7 +14,9 @@ class ProcessList extends React.Component {
 
 
   mapStateToProps = (state, ownProps) => {
-    const params = ownProps.match.params
+    const params = ownProps.match.params;
+    console.log(params);
+    console.log(state.entities);
     return {
       ...params,
       ...state.entities
