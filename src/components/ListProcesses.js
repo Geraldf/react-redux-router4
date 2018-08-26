@@ -59,7 +59,6 @@ class ProcessList extends React.Component {
 
 
 export default withRouter(connect(this.mapStateToProps, {
-  loadProcessDefinitions,
-  loadFormKey
+  loadProcessDefinitions
 })(ProcessList))
 

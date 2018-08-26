@@ -2,7 +2,7 @@
   "name": "react-router4",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://10.70.22.198:8080",
+  "proxy": "http://nuc.local:9080",
   "dependencies": {
     "camunda-external-task-client-js": "^1.0.0",
     "got": "^9.0.0",
